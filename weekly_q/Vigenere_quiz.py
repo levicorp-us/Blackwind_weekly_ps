@@ -1,4 +1,4 @@
-def vigenere(msg:str, key:str, method:bool) -> str:
+def vigenere(msg: str, key: str, method: bool = True) -> str:
     mode = (int(method) * 2 - 1) * (-1)
     rep_key_word = rep_key(msg,key)
     print(rep_key_word)
@@ -20,7 +20,9 @@ def key_enumerate(a):
     else: pass
     return num
 
+
 print(vigenere("Attack at DAwn", "lemon", False))
 
-#False: Encrypt
-#True: Decrypt
+
+# True: Encrypt
+# False: Decrypt
