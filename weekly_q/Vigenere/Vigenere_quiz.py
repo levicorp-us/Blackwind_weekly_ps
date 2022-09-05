@@ -21,7 +21,7 @@ def key_enumerate(a):
     return num
 
 
-print(vigenere("Attack at DAwn", "lemon", False))
+print(vigenere("Attack at Dawn", "lemon", False))
 
 
 # True: Encrypt
